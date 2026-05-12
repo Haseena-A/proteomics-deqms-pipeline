@@ -249,4 +249,4 @@ https://doi.org/10.1093/nar/gkv007
 
 ## License
 
-MIT © 2024. See [LICENSE](LICENSE).
+MIT © 2025. See [LICENSE](LICENSE).
