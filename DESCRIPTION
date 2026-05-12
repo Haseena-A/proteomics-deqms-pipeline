@@ -1,0 +1,40 @@
+Package: proteomicsdeqms
+Title: Differential Expression Pipeline for TMT/LFQ Proteomics (limma + DEqMS)
+Version: 1.0.0
+Date: 2024-01-01
+Authors@R: 
+    person("Your", "Name", , "your.email@example.com", role = c("aut", "cre"))
+Description: 
+    A complete, reproducible end-to-end pipeline for differential protein 
+    expression analysis from PSM-level mass spectrometry data. Combines limma 
+    with DEqMS PSM-count-aware variance correction for improved sensitivity 
+    over standard approaches. Supports TMT and label-free quantification data.
+    Outputs include: normalised matrices, volcano/MA/PCA plots, heatmaps, 
+    CSV tables, and Markdown/PDF reports.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports:
+    limma,
+    DEqMS,
+    matrixStats,
+    ggplot2,
+    ggrepel,
+    ComplexHeatmap,
+    circlize
+Suggests:
+    ExperimentHub,
+    impute,
+    ggprism,
+    svglite,
+    rmarkdown,
+    knitr,
+    tinytex,
+    jsonlite,
+    BiocManager,
+    testthat (>= 3.0.0)
+biocViews: Proteomics, DifferentialExpression, MassSpectrometry,
+    Normalization, QualityControl
+URL: https://github.com/yourusername/proteomics-deqms-pipeline
+BugReports: https://github.com/yourusername/proteomics-deqms-pipeline/issues

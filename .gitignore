@@ -1,0 +1,33 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Results (generated — do not commit)
+results/
+
+# Large data files (store externally or use Git LFS)
+data/*.csv
+data/*.tsv
+data/*.txt
+data/*.xlsx
+data/*.mzML
+data/*.raw
+# Keep templates
+!data/example/
+!data/README.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.swp
+*~
+
+# LaTeX intermediate files
+*.aux
+*.log
+*.tex
